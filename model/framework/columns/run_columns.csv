@@ -1,0 +1,3 @@
+name,type,direction,description
+CYP2C9_inhib,float,high,Probability of inhibiting the human CYP2C9
+CYP2C9_subs,float,high,Probability of being a substrate of the human CYP2C9
