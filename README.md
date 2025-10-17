@@ -2,8 +2,7 @@
 
 Analysis of metabolic stability, determining the inhibition of CYP2C9 activity and whether the compounds are a substrate for the CYP2C9 enzyme. The data to build these models has been publicly available at PubChem (AID1645840, AID1645841, AID1645842) by ADME@NCATS
 
-This model was incorporated on 2023-07-05.
-
+This model was incorporated on 2023-07-05.Last packaged on 2025-10-17.
 
 ## Information
 ### Identifiers
@@ -37,18 +36,18 @@ Below are the **Output Columns** of the model:
 - **Source:** `Local`
 - **Source Type:** `External`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos5jz9](https://hub.docker.com/r/ersiliaos/eos5jz9)
-- **Docker Architecture:** `AMD64`
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5jz9.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5jz9.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `2090`
 - **Environment Size (Mb):** `2460`
-- **Image Size (Mb):** `6235.89`
+- **Image Size (Mb):** `6318.26`
 
 **Computational Performance (seconds):**
-- 10 inputs: `46.65`
-- 100 inputs: `39.42`
-- 10000 inputs: `1199.28`
+- 10 inputs: `35.02`
+- 100 inputs: `25.97`
+- 10000 inputs: `381.53`
 
 ### References
 - **Source Code**: [https://github.com/ncats/ncats-adme](https://github.com/ncats/ncats-adme)
