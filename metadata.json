@@ -39,15 +39,20 @@
     "License": "None",
     "Contributor": "ZakiaYahya",
     "Incorporation Date": "2023-07-05",
+    "Last Packaging Date": "2025-10-17",
+    "Release": "v1.0.0",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5jz9.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos5jz9",
-    "Docker Architecture": "AMD64",
+    "Docker Architecture": [
+        "AMD64",
+        "ARM64"
+    ],
     "Model Size": 2090.0,
     "Environment Size": 2460.0,
-    "Image Size": 6235.89,
-    "Computational Performance 1": 46.65,
-    "Computational Performance 2": 37.2,
-    "Computational Performance 3": 39.42,
-    "Computational Performance 4": 249.29,
-    "Computational Performance 5": 1199.28
+    "Image Size": 6318.26,
+    "Computational Performance 1": 35.02,
+    "Computational Performance 2": 24.26,
+    "Computational Performance 3": 25.97,
+    "Computational Performance 4": 89.47,
+    "Computational Performance 5": 381.53
 }
