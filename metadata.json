@@ -1,7 +1,7 @@
 {
     "Identifier": "eos5jz9",
     "Slug": "ncats-cyp2c9",
-    "Status": "Ready",
+    "Status": "In maintenance",
     "Title": "CYP2C9 metabolism",
     "Description": "Analysis of metabolic stability, determining the inhibition of CYP2C9 activity and whether the compounds are a substrate for the CYP2C9 enzyme. The data to build these models has been publicly available at PubChem (AID1645840, AID1645841, AID1645842) by ADME@NCATS",
     "Deployment": [
