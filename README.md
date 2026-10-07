@@ -1,6 +1,6 @@
 # CYP2C9 metabolism
 
-Reports two distinct liabilities for cytochrome P450 2C9: whether a compound blocks the enzyme, and whether the enzyme metabolises it. The distinction matters because 2C9 is polymorphic in humans, so clearance routed through it can vary widely between patients. The underlying QSAR models were developed at NCATS from in-house screens covering catalysis and inhibition for the isoforms responsible for most drug clearance. Standard human liver microsome assays report total turnover and cannot attribute it to a specific isoform.
+Reports two distinct liabilities for cytochrome P450 2C9, whether a compound blocks the enzyme and whether the enzyme metabolises it. The distinction matters because 2C9 is polymorphic in humans, so clearance routed through it can vary widely between patients, while standard liver microsome assays report only total turnover. NCATS measured half-lives for 5,000 compounds against recombinant 2C9 and screened the same library in a luminescent inhibition assay, releasing those data through PubChem, and trained random forest ensembles that undersample the majority class.
 
 This model was incorporated on 2023-07-05.Last packaged on 2025-10-17.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2023-07-05.Last packaged on 2025-10-17.
 ### Output
 - **Output Dimension:** `2`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability of inhibiting CYP2C9 and probability of being a substrate of the enzyme.
+- **Interpretation:** Probability of CYP2C9 inhibition at under 10 uM and of clearance within a 30-minute half-life.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
