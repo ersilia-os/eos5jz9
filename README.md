@@ -3,7 +3,7 @@
 Reports two distinct liabilities for cytochrome P450 2C9, whether a compound blocks the enzyme and whether the enzyme metabolises it. The distinction matters because 2C9 is polymorphic in humans, so clearance routed through it can vary widely between patients, while standard liver microsome assays report only total turnover. NCATS measured half-lives for 5,000 compounds against recombinant 2C9 and screened the same library in a luminescent inhibition assay, releasing those data through PubChem, and trained random forest ensembles that undersample the majority class.
 
 This model was incorporated on 2023-07-05.
-Last packaged on 2025-10-17.
+Last packaged on 2026-11-27.
 
 ## Information
 ### Identifiers
@@ -43,12 +43,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `2090`
 - **Environment Size (Mb):** `2446`
-- **Image Size (Mb):** `6318.26`
+- **Image Size (Mb):** `1378.34`
 
 **Computational Performance (seconds):**
-- 10 inputs: `35.02`
-- 100 inputs: `25.97`
-- 10000 inputs: `381.53`
+- 10 inputs: `26.01`
+- 100 inputs: `16.55`
+- 10000 inputs: `209.61`
 
 ### References
 - **Source Code**: [https://github.com/ncats/ncats-adme](https://github.com/ncats/ncats-adme)
